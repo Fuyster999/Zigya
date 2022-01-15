@@ -1,0 +1,173 @@
+@font-face {
+	font-family: 'Font Name'; 
+	src: local('Font Name'),
+		url(Comic_CAT.otf); 
+}
+
+@media (max-width: 800px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+
+
+
+body {
+    margin-top: 50px;
+    background-color: #3a1800fa; 
+    color: #DBB907;
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Font Name'; 
+	src: local('Font Name'),
+		url(Comic_CAT.otf); 
+}
+
+
+h1 { 
+    text-align: center;
+    color:rgb(255, 230, 0);
+}
+
+.avatar {
+    
+    background: #3a1800;
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: inset 0px -20px 20px 20px rgba(72,67,24, 1);
+    
+}
+
+
+.info  {
+    display: flex;
+}
+
+.info-text {
+    margin-left: 20px;
+    text-align: center;
+}
+
+.info p {
+
+    color: #af9306;
+    
+}
+
+.oform {
+
+    background: #3a1800;
+    padding: 5px 20px;
+    border: 5px solid #000;
+    border-radius: 15px;
+    border-style: dotted;
+    margin: 10px 1px;
+
+}
+
+/*.social {
+    
+}*/
+
+a {
+    color: rgb(97, 90, 32);
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    color: rgb(175, 166, 84);
+}
+a:visited {
+    color: rgb(71, 68, 41);
+}
+
+.contener {
+    max-width: 800px;
+    margin: auto;
+}
+
+.list { 
+    padding: 0 20px;
+}
+
+.list li {
+    color: #af9306;
+    margin-bottom: 10px;
+}
+
+.table {
+    
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+    color: #af9306;
+}
+
+.contact h4 {
+    text-align: center;
+}
+
+
+.from-grup label {
+    color: #af9306;
+    display: block;
+    font-size: 14px;
+}
+
+.from-grup input, .from-grup textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: rgba(145, 145, 145, 0.39);
+    border-bottom: 1px solid #ccc;
+    color: #ff8800;
+    padding: 10px 0 10px;
+    border-radius: 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .from-grup {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.batn {
+    color: #DBB907;
+    background-color: rgba(145, 145, 145, 0.39);
+    border: none;
+    border-bottom: 1px solid #ccc;
+    margin-top: 10px;
+    font-family: inherit;
+    cursor: pointer;
+
+}
+
+.batn:hover {
+    opacity: 0.9;
+}
+
+/* Position */
+
+
+
+.box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 45px;
+    background: #50280ca9;
+    border: 3px solid #000000a9;
+}
